@@ -111,7 +111,7 @@ p .right 	{ margin:1.5em 0 1.5em 1.5em; padding:0; }
 
 a 			{  }
 a:link 		{ color:#00f; }
-a:visited 	{ color:#0f0; }
+a:visited 	{ color:#990C99; }
 a:active 	{ color:#000; }
 a:focus 	{ color:#666; }
 a:hover 	{ color:#f00; }
@@ -505,6 +505,7 @@ br { clear:left; }
 #publications { }
 #publications ul { list-style-image: url("../images/arrow.png"); color:#eee; font-size:18px; list-style-position:outside;list-style-type:disc;}
 #publications ul li { line-height:30px; }
+#publications h6{font-size: 13px;}
 
 
 #forkme_banner {
