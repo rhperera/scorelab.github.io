@@ -67,10 +67,7 @@
 				</p>
 				<hr/>
 				<br/>
-				
-				<br/>
-				<br/>
-				<br/>
+
 
 				<h2>Ideas</h2>
 				<hr/>
@@ -86,28 +83,31 @@
 				</p>
 				<br/>
 				<hr/>
-				
+				<br>
 				<h4>   b. Auto-Installer and Easy Deployments</h4>
 				<p> Auto installer should install the db script and create an admin account with the details provided by the user. It should also display the User Agreement and get user agreed to the terms before initialization. This includes setting up organisation details, report header templates etc.</p>
 				<p> Since this task is little bit easy, we like you to work on Easy Deployments task also. The ideas is to use <a href="http://vagrantup.com">Vagrant</a> to let anyone spawn an OpenDF configured VM within minutes. What has to be done is, write some shell scripts to install needed platforms( Git, Java, Glashfish, etc ) on top of a Linux distro and exposing the application to the outer environment. We can shre this Vagrant configuration on <a href="http://docs.vagrantup.com/v2/share/">Vagrant Share</a>. Then anyone who likes to use OpenDF can simply use <code>vegrant up</code> command and visit the url from the user's browser once the VM successfully started
 				<br>
 				<b>Required Knowledge: </b> Java EE, AngularJS, Vegrant
 				</p>
+				<br>
 				<hr/>
-				
+				<br>
 				<h4>  c. Browser Data Module</h4>
 				<p>Develop a web browser data module for OpenDF using the Sleuth Kit's browser data extractions feature.  Browser data may include  browser history, cookies, saved passwords, browser bookmarks, etc. You should find a way to present these data in user friendly way.
 				<br><b>Required Knowledge: </b>  Sleuth Kit, Java EE, AngularJS
 				</p>
+				<br>
 				<hr/>
-				
+				<br>
 				<h4>   d. Test Automation</h4>
 				<p>GSoC is not only about developing, it is also about testing! We need a mechanism to automate the functional testing, something like Selenium may be ideal ( Cucumber test framework may also be a good fit ). If we can have a test script, a continious intrigation tool can execute these tests for every build. Therfor the task is to come up with a suitable test automation mechanism and start writing the test scripts. ( You can refer the OpenDf's test documents to get an idea of test cases. )
 				<br>
 				<b>Required Knowledge: </b> AngularJS, Test automation mechanisms
 				</p>
+				<br>
 				<hr/>
-				 
+				<br>
 				<h3>Redesign TikiriDB </h3>
 				<p>
 					TikiriDB is a database abstraction layer to enable a query interface to acquire required data in highly efficient manner. After setting up the sensor network with TikiriDB It is possible to gather data without having the knowledge of programming sensor nodes. TikiriDB will provide a query language which is more similar to conventional query language with additional syntax to comply with sensor network environment. TikiriDB system is composed in three parts on is installed in sensor nodes, one is installed in base-stations and the other is installed in computer connected with the base-station. The application installed in computer will provide an API to connect the your application with the database. Query processor of TikiriDB is located at sensor node. The other part which installed in base-station node will mainly handle the routing of the queries. In this project main objective is make TikiriDB compatible with newer contiki vision.
