@@ -437,7 +437,7 @@ br { clear:left; }
 	float:left; 
 	padding-bottom:10px;
 	margin-bottom:30px;
-	border-bottom:4px #012D58 solid;
+	border-bottom:1px #012D58 solid;
 }
 .spacer-content{
 	width:60px; 
