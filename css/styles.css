@@ -127,8 +127,8 @@ em			{ font-style:italic; }
 ul { }
 ol { list-style-type:decimal; }
 
-ul li { color:#000; font-size:12px; }
-ol li { color:#000; font-size:12px; }
+ul li { color:#000; font-size:12px; line-height: 160%;}
+ol li { color:#000; font-size:12px; line-height: 160%;}
 
 dl { }
 dt { }
@@ -293,7 +293,7 @@ caption			{ background:#efefef; }
 }
 #content ul li {
 	font-size:14px;
-	font-family:"Times New Roman", Times, serif;
+	font-family:Arial, Helvetica, sans-serif;
 	list-style-position:outside;
 	list-style-type:square;
 	margin-left:20px;
