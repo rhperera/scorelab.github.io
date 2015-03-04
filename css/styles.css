@@ -173,7 +173,10 @@ caption			{ background:#efefef; }
 	float:left;
 	border-bottom:2px #3E78FD solid; 
 }
-#topnav ul li{ display:inline }
+#topnav ul li{ 
+			display: inline-block;
+			vertical-align: middle;
+		} 
 #topnav ul li a{
 	padding:10px 20px;
 	float:bottom;
