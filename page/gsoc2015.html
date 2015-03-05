@@ -57,7 +57,7 @@
 			<!-- InstanceBeginEditable name="slider" -->
 			<img src="../images/banner-gsoc2015.png"  style="width: 100%;"/>
 			<div id="content" style="width:980px;">
-				<h1>Ideas for Google Summer of Code 2015</h1>
+				<h1>Google Summer of Code 2015</h1>
 
 				<p>
 					Welcome to the SCoRe Lab Google Summer of Code (GSoC) 2015 project ideas page. We are a dynamic and enthusiastic nonprofit research group pioneering in Internet of Things (IOT), Embedded Systems, Computer Security and 'Wireless Adhoc and Sensor Networks' and is one of the best groups in South Asia. We are based in the University of Colombo School of Computing, Sri Lanka. This is the first time that we are participating in the GSoC, we will use this page to develop possible project ideas that have on the above mentioned areas. Please note that anyone who is interested can participate in this process. You do not have to be a GSoC student or mentor to suggest possible project ideas. You can also talk to us about possible project ideas and we are happy to improve or heip you with them. Please keep in mind that projects need to be realistically something that is able to be functionally completed by a student working full time for about eight weeks. Thanks!
@@ -72,46 +72,227 @@
 				<br/>
 
 
-				<h2>Ideas</h2>
-				<hr/>
+				<h2>Proposals list for GSoC 2015</h2>
 				<br/>
-				<h3>OpenDF</h3>
+
+		<div id="proposal-list">
+					<ol style="padding-left: 25px;">
+						<li><a href="#opendf-1">Proposal 1 : Forensics Timeline Module</a> for <a href="#opendf">OpenDF</a></li>
+						<li><a href="#opendf-2">Proposal 2 : Auto-Installer and Easy Deployments for <a href="#opendf">OpenDF</a></a></li>
+						<li><a href="#opendf-3">Proposal 3 : Browser Data Module for <a href="#opendf">OpenDF</a></a></li>
+						<li><a href="#opendf-4">Proposal 4 : Test Automation</a> for <a href="#opendf">OpenDF</a></li>
+						<li><a href="#tracker-1">Proposal 5 : User Interfaces</a> for <a href="#tracker">Tracker</a></li>
+						<li><a href="#tracker-2">Proposal 6 : Auto Installer</a> for <a href="#tracker">Tracker</a></li>
+						<li><a href="#packtrack-1">Proposal 7 : Create adding stations and carriers module</a> for <a href="#packtrack">Pack-Track</a></li>
+						<li><a href="#packtrack-2">Proposal 8 : Connect Pack-Track with Tracker</a> for <a href="#packtrack">Pack-Track</a></li>
+						<li><a href="#packtrack-2">Proposal 9 : ReST API to get data</a> for <a href="#packtrack">Pack-Track</a></li>
+						<li><a href="#tikiridb">Proposal 11 : Tikiri-DB Improvements</a></li>
+						<li><a href="#snsm">Proposal 12 : Social Networks for situation mining</a></li>
+						<li><a href="#publications">Important Guidelines on Submitting Ideas</a></li>
+						<li><a href="">Proposal Template for Students</a></li>
+					</ol>
+		</div>
+
+		<br/>
+		<hr/>
+		<br/>
+			<div id="opendf">
+				<h2>OpenDF</h2>
 				
 				<p>An effort to build an Open Source tool to help Digital Forensics Investigations by bringing all the related processes in digital forensics into one complete solution.
-  <br>Site : <a href="http://www.scorelab.org/OpenDF" target="_blank">www.scorelab.org/OpenDF</a></p>
-				<h4>   1. Forensics Timeline Module</h4>
+  				<br>Site : <a href="http://www.scorelab.org/OpenDF" target="_blank">www.scorelab.org/OpenDF</a></p>
+  			</div>
+  			<br/>
+  			<div id="opendf-1">
+				<h3>   1. Forensics Timeline Module</h3>
 				<p>Develop a module that can visually represent, in user friendly way, the activities recorded in a Disk Image, like file access activities, browser histories, etc. This should extract different kind of  time series data and represent in a way that the investigators can get an indea of the last activities done on a given Disk Image.  
-				<br>
-				<b>Required Knowledge: </b>  Sleuth Kit, Java EE, AngularJS
+				<br/>
+				<b>Required Knowledge: </b>  
+				<ul>
+					<li>Sleuth Kit</li> 
+					<li>Java EE</li> 
+					<li>AngularJS</li>
+				</ul>
 				</p>
+			</div>
 				<br/>
 				
 				<br>
-				<h4>   2. Auto-Installer and Easy Deployments</h4>
+
+			<div id="opendf-2">
+				<h3>   2. Auto-Installer and Easy Deployments</h3>
 				<p> Auto installer should install the db script and create an admin account with the details provided by the user. It should also display the User Agreement and get user agreed to the terms before initialization. This includes setting up organisation details, report header templates etc.</p>
 				<p> Since this task is little bit easy, we like you to work on Easy Deployments task also. The ideas is to use <a href="http://vagrantup.com">Vagrant</a> to let anyone spawn an OpenDF configured VM within minutes. What has to be done is, write some shell scripts to install needed platforms( Git, Java, Glashfish, etc ) on top of a Linux distro and exposing the application to the outer environment. We can shre this Vagrant configuration on <a href="http://docs.vagrantup.com/v2/share/">Vagrant Share</a>. Then anyone who likes to use OpenDF can simply use <code>vegrant up</code> command and visit the url from the user's browser once the VM successfully started
 				<br>
-				<b>Required Knowledge: </b> Java EE, AngularJS, Vegrant
-				</p>
+				<b>Required Knowledge: </b> 
+				<ul>
+					<li>Sleuth Kit</li> 
+					<li>Java EE</li> 
+					<li>Vegrant</li>
+				</ul> </p>
+			</div>
 				<br>
 				
 				<br>
-				<h4>  3. Browser Data Module</h4>
+
+			<div id="opendf-3">
+				<h3>  3. Browser Data Module</h3>
 				<p>Develop a web browser data module for OpenDF using the Sleuth Kit's browser data extractions feature.  Browser data may include  browser history, cookies, saved passwords, browser bookmarks, etc. You should find a way to present these data in user friendly way.
-				<br><b>Required Knowledge: </b>  Sleuth Kit, Java EE, AngularJS
+				<br>
+				<b>Required Knowledge: </b>  
+				<ul>
+					<li>Sleuth Kit</li> 
+					<li>Java EE</li> 
+					<li>AngularJS</li>
+				</ul>
 				</p>
+			</div>
 				<br>
 				
 				<br>
-				<h4>   4. Test Automation</h4>
+
+			<div id="opendf-4">
+				<h3>   4. Test Automation</h3>
 				<p>GSoC is not only about developing, it is also about testing! We need a mechanism to automate the functional testing, something like Selenium may be ideal ( Cucumber test framework may also be a good fit ). If we can have a test script, a continious intrigation tool can execute these tests for every build. Therefor the task is to come up with a suitable test automation mechanism and start writing the test scripts. ( You can refer the OpenDF's test documents to get an idea of test cases. )
 				<br>
-				<b>Required Knowledge: </b> AngularJS, Test automation mechanisms
+				<b>Required Knowledge: </b> 
+				<ul>
+					<li>AngularJS</li> 
+					<li>Test automation</li> 
+					<li>mechanisms</li>
+				</ul>
 				</p>
+			</div>
+
 				<br>
 				<hr/>
 				<br>
-				<h3>TikiriDB </h3>
+
+			<div id="tracker">
+				<h2>Tracker</h2>
+				<br/>
+				<p></p>
+			</div>
+
+			<div id="tracker-1">
+				<h3>1. Develop Tracker UIs</h3>
+				<p>
+					We still are not done with the UIs of the Tracker, we have to write UIs that consumes the web servise and help users to interact. UIs includes following,
+				</p>
+				<ul>
+					<p><b>Managers&rsquo; Dashboard</b></p>
+						<ul>
+							<li>This page should be able to display the current active trackers that the manager is tracking.</li>
+							<li>A separate section should display a map with the current positions of the devices along with their paths for a pre-defined time.</li>
+							<li>When a tracker is selected, details about the selected trackers&rsquo; location and path should be highlighted on the map along with other relevant details.</li>
+						</ul>
+					<p><b>Create ResourceM</b></p>
+						<ul>
+							<li>This should allow the managers to create a resource along with the resource name, details and icon. This will be the type of the trackers.</li>
+						</ul>
+					<p><b>Create Tracker</b></p>
+						<ul>
+							<li>Manager should be able to add a new tracker. The tracker will be referenced from the MAC address of the tracking device. The type of the tracking device will be selected from a pre-created resources list.</li>
+						</ul>
+					<p><b>Tracker Details Page</b></p>
+						<ul>
+							<li>A tracker device should have its own details page. It will show the path and the location of the tracker and its relevant details. The manager should be able to send any message to the tracker device if the device supports that service.</li>
+						</ul>
+				</ul>
+				<br>
+							</div>
+					<p><b>Required Knowledge: </b>
+					<ul> 
+						<li>NodeJS</li> 
+						<li>MongoDB ( NoSQL )</li> 
+						<li>HTML5</li>
+					</ul>
+				</p>
+
+
+				<br>
+			
+			<div id="tracker-2">
+				<h3>2. Auto-Installer</h3>
+				<p>
+					Auto installer should start the first time the app is run. It should take the necessary information about the organization and initiate the system accordingly. 
+					<br>
+					<b>Required Knowledge: </b> 
+					<ul>
+						<li>NodeJS</li> 
+						<li>MongoDB ( NoSQL )</li> 
+						<li>HTML5</li>
+					</ul>
+				</p>
+			</div>
+
+			<br/>
+			<hr/>
+			<br/>
+
+		<div id="packtrack">
+			<h2>Pack Track</h2>
+			<br/>
+				<p>
+					Pack Track is basically a low cost parcel management and parcel tracking system.
+					<br>Site <a href="http://www.scorelab.org/Pack-Track/" target="_blank">www.scorelab.org/Pack-Track/</a>
+				</p><br>
+				<div id="packtrack-1">
+					<h3>1. Create adding stations and carriers module</h3>
+					<p>
+						Add modules to create new warehouses and carriers. Connect it with existing modules. Automate the process  parcel assignment to carriers.
+						<br>
+						<b>Required Knowledge: </b> 
+						<ul>
+							<li>Java EE</li> 
+							<li>Struts 2</li> 
+							<li>Hibernate 3</li>
+						</ul>
+					</p>
+				</div>
+				<br>
+				
+				<br>
+				<div id="packtrack-2">
+					<h3>2. Connect Pack-Track with Tracker</h3>
+					<p>
+						Connect Pack-Track with tracker to get real-time locations of the parcels and display them on a map.
+						<br>
+						<b>Required Knowledge: </b>
+						<ul>
+							<li> Java EE</li> 
+							<li>Struts 2</li> 
+							<li>Hibernate 3</li> 
+							<li>NodeJS</li> 
+							<li>MongoDB</li>
+						</ul>
+					</p>
+				</div>
+				<br>
+				
+				<br>
+				<div id="packtrack-3">
+					<h3>3. Rest API to get data </h3>
+					<p>
+						Improve the API to get parcel data for third parties and develop the security measures for access control
+						<br>
+						<b>Required Knowledge: </b>
+						<ul>
+							<li>Java EE</li> 
+							<li>Struts 2</li> 
+							<li>Hibernate 3</li> 
+							<li>ReST Services</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+			<br/>
+			<hr/>
+			<br/>
+
+			<div id="tikiridb">
+				<h2>TikiriDB </h2>
 				<p>
 					TikiriDB is a database abstraction layer to enable a query interface to acquire required data in highly efficient manner. After setting up the sensor network with TikiriDB It is possible to gather data without having the knowledge of programming sensor nodes. TikiriDB will provide a query language which is more similar to conventional query language with additional syntax to comply with sensor network environment. TikiriDB system is composed in three parts on is installed in sensor nodes, one is installed in base-stations and the other is installed in computer connected with the base-station. The application installed in computer will provide an API to connect the your application with the database. Query processor of TikiriDB is located at sensor node. The other part which installed in base-station node will mainly handle the routing of the queries. In this project main objective is make TikiriDB compatible with newer Contiki vision.
 				</p>
@@ -122,99 +303,38 @@
 				<p>
 					<b>Contiki: </b><a href="https://github.com/contiki-os/contiki" target="_blank">https://github.com/contiki-os/contiki</a>
 				</p>
-				<h4>Redesign TikiriDB</h4>
+				<h3>Redesign TikiriDB</h3>
 				<p>
-					<b>Required Knowledge: </b>Contiki OS, C and Database
+					<b>Required Knowledge: </b>
+					<ul>
+						<li>Contiki OS</li> 
+						<li>C</li> 
+						<li>Database</li>
+					</ul>
 				</p>
+			</div>
+
 				<hr />
-				<br />
-				<br />
-				<h3>Tracker</h3>
-				<br/>
-				<h4>1. Develop Tracker UIs</h4>
-				<p>
-					We still are not done with the UIs of the Tracker, we have to write UIs that consumes the web servise and help users to interact. UIs includes following,
-				</p>
-				<ul>
-					<li>Managers&rsquo; Dashboard
-						<ul>
-							<li>This page should be able to display the current active trackers that the manager is tracking.</li>
-							<li>A separate section should display a map with the current positions of the devices along with their paths for a pre-defined time.</li>
-							<li>When a tracker is selected, details about the selected trackers&rsquo; location and path should be highlighted on the map along with other relevant details.</li>
-						</ul>
-					</li>
-					<li>Create Resource
-						<ul>
-							<li>This should allow the managers to create a resource along with the resource name, details and icon. This will be the type of the trackers.</li>
-						</ul>
-					</li>
-					<li>Create Tracker
-						<ul>
-							<li>Manager should be able to add a new tracker. The tracker will be referenced from the MAC address of the tracking device. The type of the tracking device will be selected from a pre-created resources list.</li>
-						</ul>
-					</li>
-					<li>Tracker Details Page
-						<ul>
-							<li>A tracker device should have its own details page. It will show the path and the location of the tracker and its relevant details. The manager should be able to send any message to the tracker device if the device supports that service.</li>
-						</ul>
-					</li>
-				</ul>
-				<br>
-				<p>
-					<b>Required Knowledge: </b> NodeJS, MongoDB ( NoSQL ), HTML5
-				</p>
-				<br>
-				
-				<h4>2. Auto-Installer</h4>
-				<p>
-					Auto installer should start the first time the app is run. It should take the necessary information about the organization and initiate the system accordingly. 
-					<br>
-					<b>Required Knowledge: </b> NodeJS, MongoDB ( NoSQL ), HTML5
-				</p>
-				<br>
-				<hr/>
-				<br>
-				<br>
-				<h3>Pack Track</h3>
-				<p>
-					Pack Track is basically a low cost parcel management and parcel tracking system.
-					<br>Site <a href="http://www.scorelab.org/Pack-Track/" target="_blank">www.scorelab.org/Pack-Track/</a>
-				</p>
-				<h4>1.Create adding stations and carriers module</h4>
-				<p>
-					Add modules to create new warehouses and carriers. Connect it with existing modules. Automate the process  parcel assignment to carriers.
-					<br>
-					<b>Required Knowledge: </b> Java EE, Struts 2, Hibernate 3
-				</p>
-				<br>
 				
 				<br>
-				<h4>2. Connect Pack-Track with Tracker</h4>
-				<p>
-					Connect Pack-Track with tracker to get real-time locations of the parcels and display them on a map.
-					<br>
-					<b>Required Knowledge: </b> Java EE, Struts 2, Hibernate 3, NodeJS, MongoDB
-				</p>
-				<br>
-				
-				<br>
-				<h4>3.Rest API to get data </h4>
-				<p>
-					Improve the API to get parcel data for third parties and develop the security measures for access control
-					<br>
-					<b>Required Knowledge: </b> Java EE, Struts 2, Hibernate 3, REST
-				</p>
-				<br>
-				<hr/>
 				<br>
 
-				<h3>Social Networks for situation mining</h3>
+			<div id="snsm">
+				<h2>Social Networks for situation mining</h2>
 				<p>
 					The given dataset was collected from news groups who had shared their news in Twitter news blogs. These data includes different type of news areas and news topics. By analysing the news, one can define the current state of that given country. In order to make ease to follow the news, the suggestion is to cluster the news into their areas and topics. Several clustering techniques can be use to solve this problem. Thus, the research question is, to identify the news topics among the news and summarize the situation of the given country. The selected data set contains Sri Lanka news and it was collected by using 5 news providers.
 				</p>
 				<p>
-					<b>Required Knowledge: </b>Data mining, Cluster Analysis, Weka, Octave
+					<b>Required Knowledge: </b>
+					<ul>
+						<li>Data mining</li> 
+						<li>Cluster Analysis</li> 
+						<li>Weka</li> 
+						<li>Octave</li>
+					</ul>
 				</p>
+			</di>
+			
 				<hr />
 				<br />
 				
@@ -222,9 +342,9 @@
 
 				<div id="publications">
 
-					<h4>Important Guidelines on Submitting Ideas</h4>
-					<br />
-					<h6>There are some important guidelines to submit ideas, please read these carefully before adding your ideas:</h6>
+					<h2>Important Guidelines on Submitting Ideas</h2>
+					<br /><br>
+					<h4>There are some important guidelines to submit ideas, please read these carefully before adding your ideas:</h4><br/>
 					<ul>
 						<li>
 							There is a fixed time period for implementing and coding your ideas. The GSoC is from May 19th to August 18th 2014.
@@ -242,23 +362,8 @@
 							We encourage you to do documentation so that we can keep track of your progress and also help you if things are not going according to plan. Although not compulsory we have a strong belief that this method can cut down your time to code and also the workload of the mentors drastically.
 						</li>
 					</ul>
-				
-				<hr />
 				<br /><br />
-				<h4>Mentors</h4>
 				
-				<p>Here is the list of our mentors:</p>
-				
-				<ul>
-				<li>Kasun de Zoyza</li>
-				<li>Chamath Keppitiyagama</li>
-				<li>Charith Madushanka</li>
-				<li>Vijitha Ekanayake</li>
-				<li>Eranjan Kandegedara</li>
-				<li>Kenneth Thilakarathna</li>
-				<li>Inoshika Fernando</li>
-				<li>Eranda Tennakoon</li>
-				</ul>
 </div>
 				<div id="footer">
 					<p>

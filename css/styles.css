@@ -1,11 +1,43 @@
 /* Reset */
 
+
 html, body{
 	margin:0;
 	padding:0;
 	border:0;
 	background:transparent;
 	font-size:10px;
+}
+
+#tracker-1 ul li{
+	list-style-type:none!important;
+
+}
+
+#proposal-list ol li{
+	font-size: 15px;
+		list-style-type:square;
+}
+
+
+
+#proposal-list ol li a:link {
+    color: #3b73af;
+}
+
+/* visited link */
+#proposal-list ol li a:visited {
+    color: #3b73af;
+}
+
+/* mouse over link */
+#proposal-list ol li a:hover {
+    text-decoration: underline;
+}
+
+/* selected link */
+#proposal-list ol li a:active {
+    color: #3b73af;
 }
 
 div, span, article, aside, footer, header, nav, section,h1, h2, h3, h4, h5, h6, p, blockquote, a, ol , ul, li, tbale, tr, th, td, tbody, tfoot, thead {
