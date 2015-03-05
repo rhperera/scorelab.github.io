@@ -335,12 +335,12 @@
 						<li>Octave</li>
 					</ul>
 				</p>
-			</di>
+			</div>
+		
+			<br />
 			<hr />
 			<br />
-			<br />
 			<br/>
-		<hr/>
 		<br/>
 		<div id="IoTDatastore">
 			<h2>IoT Datastore powered by Distributed Software Transactional memory</h2>
@@ -348,15 +348,22 @@
 			<p>One of the challenges associated with the internet of things is figuring out where to put all that data. If you have dozens of connected devices talking to the cloud you’ve got to think about where that data lives, how to normalize it and how to grant others access to it so it becomes useful. The goal of this project is to optimize read/write operations in such data store which can be used as a platform to build concurrent systems. Software Transactional Memories (STMs) are emerging as a powerful paradigm to develop concurrent applications. By relishing the programmer from the burden of managing locks or other low-level concurrency control mechanisms, the reliability of the code is increased and the software development time significantly shortened.		
 			</p>
 			<br/> 
-			<b>Deliverables:</b>  
-				<br/> - Model IoT data in single data framework (You can use existing tools)
-				<br/> - Implement STM on cluster nodes which can plug into above framework
-				<br/> - Solve conflicts between STMs running on different nodes of the cluster which requires nodes to obtain exclusive access to the datastore during the commit phase
-				<br/> - Build a debug tool to explore performance metrics
-				
-			<b>Skills Needed: </b>
+			<p>
+				<b>Deliverables: </b>
+				<ul>
+					<li>Model IoT data in single data framework (You can use existing tools)</li> 
+					<li>Implement STM on cluster nodes which can plug into above framework</li> 
+					<li>Solve conflicts between STMs running on different nodes of the cluster which requires nodes to obtain exclusive access to the datastore during the commit phase</li> 
+					<li>Build a debug tool to explore performance metrics</li>
+				</ul>
+			</p>
+
+			<p>
+				<b>Skills Needed: </b>
 				<br/> - Basic concepts behind Software Transactional Memory, Modeling dynamic data using existing data-structures
-			<b>References: </b>
+			</p>
+			<p>
+				<b>References: </b>
 				<br/> - http://pastramy.gsd.inesc-id.pt/
 			</p>
 		</div>
