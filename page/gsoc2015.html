@@ -70,9 +70,32 @@
 				<p>
 					<b>IRC Channel: </b>#scorelab
 				</p>
-				<hr/>
 				<br/>
 
+
+					<h2>Important Guidelines on Submitting Ideas</h2>
+					<br /><br>
+					<h4>There are some important guidelines to submit ideas, please read these carefully before adding your ideas:</h4><br/>
+					<ul>
+						<li>
+							There is a fixed time period for implementing and coding your ideas.
+						</li>
+						<li>
+							Come up with attainable goals and you will be able to complete what you set out to do. You can always contact our mentors and community and get an idea about the workload and whether you might be able to complete them.
+						</li>
+						<li>
+							 You are free to come up with your own ideas. The ideas should be about Internet of Things (IOT), Embedded Systems, Computer Security and 'Wireless Adhoc and Sensor Networks’. Also if you love to work on any of these subjects but do not have an idea you can always contact us.
+						</li>
+						<li>
+							Lets Talk! The best way to solve problems that you might have is to contact our mentors and also our community.  This will help you to not get bogged down in your ideas and to move on.
+						</li>
+						<li>
+							We encourage you to do documentation so that we can keep track of your progress and also help you if things are not going according to plan. Although not compulsory we have a strong belief that this method can cut down your time to code and also the workload of the mentors drastically.
+						</li>
+					</ul>
+				<br />
+				
+				<hr/>
 
 				<h2>Proposals list for GSoC 2015</h2>
 				<br/>
@@ -83,16 +106,16 @@
 						<li><a href="#opendf-2">Proposal 2 : Auto-Installer and Easy Deployments</a> for <a href="#opendf">OpenDF</a></a></li>
 						<li><a href="#opendf-3">Proposal 3 : Browser Data Module</a> for <a href="#opendf">OpenDF</a></a></li>
 						<li><a href="#opendf-4">Proposal 4 : Image,video & audio metadata Module</a> for <a href="#opendf">OpenDF</a></a></li>
-						<li><a href="#opendf-4">Proposal 5 : Test Automation</a> for <a href="#opendf">OpenDF</a></li>
+						<li><a href="#opendf-5">Proposal 5 : Test Automation</a> for <a href="#opendf">OpenDF</a></li>
 						<li><a href="#tracker-1">Proposal 6 : User Interfaces</a> for <a href="#tracker">Tracker</a></li>
 						<li><a href="#tracker-2">Proposal 7 : Auto Installer</a> for <a href="#tracker">Tracker</a></li>
 						<li><a href="#packtrack-1">Proposal 8 : Create adding stations and carriers module</a> for <a href="#packtrack">Pack-Track</a></li>
 						<li><a href="#packtrack-2">Proposal 9 : Connect Pack-Track with Tracker</a> for <a href="#packtrack">Pack-Track</a></li>
 						<li><a href="#packtrack-3">Proposal 10 : REST API to get data</a> for <a href="#packtrack">Pack-Track</a></li>
-						<li><a href="#tikiridb">Proposal 11 : Tikiri-DB Improvements</a></li>
+						<li><a href="#tikiridb">Proposal 11 : Redesign Tikiri-DB</a></li>
 						<li><a href="#snsm">Proposal 12 : Social Networks for situation mining</a></li>
 						<li><a href="#IoTDatastore">Proposal 13 : IoT Datastore powered by Distributed Software Transactional memory</a></li>
-						<li><a href="publications">Proposal Template for Students</a></li>
+						<li><a href="#template">Proposal Template for Students</a></li>
 					</ol>
 		</div>
 
@@ -107,7 +130,7 @@
   			</div>
   			<br/>
   			<div id="opendf-1">
-				<h3>   1. Forensics Timeline Module</h3>
+				<h2>Proposal 1 : Forensics Timeline Module for OpenDF</h2>
 				<p>Develop a module that can visually represent, in user friendly way, the activities recorded in a Disk Image, like file access activities, browser histories, etc. This should extract different kind of  time series data and represent in a way that the investigators can get an indea of the last activities done on a given Disk Image.  
 				<br/>
 				<b>Required Knowledge: </b>  
@@ -115,6 +138,10 @@
 					<li>Sleuth Kit</li> 
 					<li>Java EE</li> 
 					<li>AngularJS</li>
+				</ul></p>
+				<p><b>Possible Mentors</b>
+				<ul>
+					<li>Charitha Madusanka</li> 
 				</ul>
 				</p>
 			</div>
@@ -123,7 +150,7 @@
 				<br>
 
 			<div id="opendf-2">
-				<h3>   2. Auto-Installer and Easy Deployments</h3>
+				<h2>Proposal 2 : Auto-Installer and Easy Deployments for OpenDF</h2>
 				<p> Auto installer should install the db script and create an admin account with the details provided by the user. It should also display the User Agreement and get user agreed to the terms before initialization. This includes setting up organisation details, report header templates etc.</p>
 				<p> Since this task is little bit easy, we like you to work on Easy Deployments task also. The ideas is to use <a href="http://vagrantup.com">Vagrant</a> to let anyone spawn an OpenDF configured VM within minutes. What has to be done is, write some shell scripts to install needed platforms( Git, Java, Glashfish, etc ) on top of a Linux distro and exposing the application to the outer environment. We can shre this Vagrant configuration on <a href="http://docs.vagrantup.com/v2/share/">Vagrant Share</a>. Then anyone who likes to use OpenDF can simply use <code>vegrant up</code> command and visit the url from the user's browser once the VM successfully started
 				<br>
@@ -132,14 +159,19 @@
 					<li>Sleuth Kit</li> 
 					<li>Java EE</li> 
 					<li>Vegrant</li>
-				</ul> </p>
+				</ul></p>
+				<p><b>Possible Mentors</b>
+				<ul>
+					<li>Charitha Madusanka</li> 
+				</ul></p>
+			
 			</div>
 				<br>
 				
 				<br>
 
 			<div id="opendf-3">
-				<h3>  3. Browser Data Module</h3>
+				<h2>Proposal 3 : Browser Data Module for OpenDF</h2>
 				<p>Develop a web browser data module for OpenDF using the Sleuth Kit's browser data extractions feature.  Browser data may include  browser history, cookies, saved passwords, browser bookmarks, etc. You should find a way to present these data in user friendly way.
 				<br>
 				<b>Required Knowledge: </b>  
@@ -149,12 +181,16 @@
 					<li>AngularJS</li>
 				</ul>
 				</p>
+				<p><b>Possible Mentors</b>
+				<ul>
+					<li>Charitha Madusanka</li> 
+				</ul></p>
 			</div>
 				<br>
 				
 				<br>
 			<div id="opendf-4">
-				<h3>  3. Image,video & audio metadata Module</h3>
+				<h2>Proposal 4 : Image,video & audio metadata Module for OpenDF</h2>
 				<p>Develop a module for OpenDF to  extract meta data of images( Photos ),video & audio and present in user friendly way. There are several Photographic Metadata Standards like, Exif ( Exchangeable image file format ), etc. Your task is to query for media files and extract these metadata from them. This should be done in whole or for a given media file. And these data should be presented to the user while browsing the files on the Disk Images.
 				<br>
 				<b>Required Knowledge: </b>  
@@ -164,12 +200,16 @@
 					<li>AngularJS</li>
 				</ul>
 				</p>
+				<p><b>Possible Mentors</b>
+				<ul>
+					<li>Charitha Madusanka</li> 
+				</ul></p>
 			</div>
 				<br>
 				
 				<br>
-			<div id="opendf-4">
-				<h3>   4. Test Automation</h3>
+			<div id="opendf-5">
+				<h2>Proposal 5 : Test Automation for OpenDF</h2>
 				<p>GSoC is not only about developing, it is also about testing! We need a mechanism to automate the functional testing, something like Selenium may be ideal ( Cucumber test framework may also be a good fit ). If we can have a test script, a continious intrigation tool can execute these tests for every build. Therefor the task is to come up with a suitable test automation mechanism and start writing the test scripts. ( You can refer the OpenDF's test documents to get an idea of test cases. )
 				<br>
 				<b>Required Knowledge: </b> 
@@ -179,6 +219,10 @@
 					<li>mechanisms</li>
 				</ul>
 				</p>
+				<p><b>Possible Mentors</b>
+				<ul>
+					<li>Charitha Madusanka</li> 
+				</ul></p>
 			</div>
 
 				<br>
@@ -192,7 +236,7 @@
 			</div>
 
 			<div id="tracker-1">
-				<h3>1. Develop Tracker UIs</h3>
+				<h2>Proposal 6 : User Interfaces for Tracker</h2>
 				<p>
 					We still are not done with the UIs of the Tracker, we have to write UIs that consumes the web servise and help users to interact. UIs includes following,
 				</p>
@@ -225,12 +269,16 @@
 						<li>HTML5</li>
 					</ul>
 				</p>
+				<p><b>Possible Mentors</b>
+				<ul>
+					<li>Charitha Madusanka</li> 
+				</ul></p>
 
 
 				<br>
 			
 			<div id="tracker-2">
-				<h3>2. Auto-Installer</h3>
+				<h2>Proposal 7 : Auto Installer for Tracker</h2>
 				<p>
 					Auto installer should start the first time the app is run. It should take the necessary information about the organization and initiate the system accordingly. 
 					<br>
@@ -241,6 +289,10 @@
 						<li>HTML5</li>
 					</ul>
 				</p>
+				<p><b>Possible Mentors</b>
+				<ul>
+					<li>Charitha Madusanka</li> 
+				</ul></p>
 			</div>
 
 			<br/>
@@ -255,7 +307,7 @@
 					<br>Site <a href="http://www.scorelab.org/Pack-Track/" target="_blank">www.scorelab.org/Pack-Track/</a>
 				</p><br>
 				<div id="packtrack-1">
-					<h3>1. Create adding stations and carriers module</h3>
+					<h2>Proposal 8 : Create adding stations and carriers module for Pack-Track</h2>
 					<p>
 						Add modules to create new warehouses and carriers. Connect it with existing modules. Automate the process  parcel assignment to carriers.
 						<br>
@@ -266,12 +318,16 @@
 							<li>Hibernate 3</li>
 						</ul>
 					</p>
+					<p><b>Possible Mentors</b>
+				<ul>
+					<li>Charitha Madusanka</li> 
+				</ul></p>
 				</div>
 				<br>
 				
 				<br>
 				<div id="packtrack-2">
-					<h3>2. Connect Pack-Track with Tracker</h3>
+					<h2>Proposal 9 : Connect Pack-Track with Tracker</h2>
 					<p>
 						Connect Pack-Track with tracker to get real-time locations of the parcels and display them on a map.
 						<br>
@@ -284,12 +340,16 @@
 							<li>MongoDB</li>
 						</ul>
 					</p>
+					<p><b>Possible Mentors</b>
+				<ul>
+					<li>Charitha Madusanka</li> 
+				</ul></p>
 				</div>
 				<br>
 				
 				<br>
 				<div id="packtrack-3">
-					<h3>3. REST API to get data </h3>
+					<h2>Proposal 10 : REST API to get data for Pack-Track</h2>
 					<p>
 						Improve the API to get parcel data for third parties and develop the security measures for access control
 						<br>
@@ -301,6 +361,10 @@
 							<li>ReST Services</li>
 						</ul>
 					</p>
+					<p><b>Possible Mentors</b>
+				<ul>
+					<li>Charitha Madusanka</li> 
+				</ul></p>
 				</div>
 			</div>
 
@@ -309,7 +373,7 @@
 			<br/>
 
 			<div id="tikiridb">
-				<h2>Redesign TikiriDB</h2>
+				<h2>Proposal 11 : Redesign Tikiri-DB</h2>
 				<p>
 					TikiriDB is a database abstraction layer to enable a query interface to acquire required data in highly efficient manner. After setting up the sensor network with TikiriDB It is possible to gather data without having the knowledge of programming sensor nodes. TikiriDB will provide a query language which is more similar to conventional query language with additional syntax to comply with sensor network environment. TikiriDB system is composed in three parts on is installed in sensor nodes, one is installed in base-stations and the other is installed in computer connected with the base-station. The application installed in computer will provide an API to connect the your application with the database. Query processor of TikiriDB is located at sensor node. The other part which installed in base-station node will mainly handle the routing of the queries. In this project main objective is make TikiriDB compatible with newer Contiki vision.
 				</p>
@@ -336,7 +400,7 @@
 				<br>
 
 			<div id="snsm">
-				<h2>Social Networks for situation mining</h2>
+				<h2>Proposal 12 : Social Networks for situation mining</h2>
 				<p>
 					The given dataset was collected from news groups who had shared their news in Twitter news blogs. These data includes different type of news areas and news topics. By analysing the news, one can define the current state of that given country. In order to make ease to follow the news, the suggestion is to cluster the news into their areas and topics. Several clustering techniques can be use to solve this problem. Thus, the research question is, to identify the news topics among the news and summarize the situation of the given country. The selected data set contains Sri Lanka news and it was collected by using 5 news providers.
 				</p>
@@ -357,7 +421,7 @@
 			<br/>
 		<br/>
 		<div id="IoTDatastore">
-			<h2>IoT Datastore powered by Distributed Software Transactional memory</h2>
+			<h2>Proposal 13 : IoT Datastore powered by Distributed Software Transactional memory</h2>
 				
 			<p>One of the challenges associated with the internet of things is figuring out where to put all that data. If you have dozens of connected devices talking to the cloud you’ve got to think about where that data lives, how to normalize it and how to grant others access to it so it becomes useful. The goal of this project is to optimize read/write operations in such data store which can be used as a platform to build concurrent systems. Software Transactional Memories (STMs) are emerging as a powerful paradigm to develop concurrent applications. By relishing the programmer from the burden of managing locks or other low-level concurrency control mechanisms, the reliability of the code is increased and the software development time significantly shortened.		
 			</p>
@@ -384,31 +448,7 @@
 		<br/>
 		<br>	
 
-				<div id="publications">
-
-					<h2>Important Guidelines on Submitting Ideas</h2>
-					<br /><br>
-					<h4>There are some important guidelines to submit ideas, please read these carefully before adding your ideas:</h4><br/>
-					<ul>
-						<li>
-							There is a fixed time period for implementing and coding your ideas.
-						</li>
-						<li>
-							Come up with attainable goals and you will be able to complete what you set out to do. You can always contact our mentors and community and get an idea about the workload and whether you might be able to complete them.
-						</li>
-						<li>
-							 You are free to come up with your own ideas. The ideas should be about Internet of Things (IOT), Embedded Systems, Computer Security and 'Wireless Adhoc and Sensor Networks’. Also if you love to work on any of these subjects but do not have an idea you can always contact us.
-						</li>
-						<li>
-							Lets Talk! The best way to solve problems that you might have is to contact our mentors and also our community.  This will help you to not get bogged down in your ideas and to move on.
-						</li>
-						<li>
-							We encourage you to do documentation so that we can keep track of your progress and also help you if things are not going according to plan. Although not compulsory we have a strong belief that this method can cut down your time to code and also the workload of the mentors drastically.
-						</li>
-					</ul>
-				<br /><br />
 				
-</div>
 				<div id="footer">
 					<p>
 						&copy;Copyright 2015 Sustainable Computing Research (SCoRe)
