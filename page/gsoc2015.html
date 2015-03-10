@@ -63,16 +63,12 @@
 					Welcome to the SCoRe Lab Google Summer of Code (GSoC) 2015 project ideas page. We are a dynamic and enthusiastic nonprofit research group pioneering in Internet of Things (IOT), Embedded Systems, Computer Security and 'Wireless Adhoc and Sensor Networks' and is one of the best groups in South Asia. We are based in the University of Colombo School of Computing, Sri Lanka. This is the first time that we are participating in the GSoC, we will use this page to develop possible project ideas that have on the above mentioned areas. Please note that anyone who is interested can participate in this process. You do not have to be a GSoC student or mentor to suggest possible project ideas. You can also talk to us about possible project ideas and we are happy to improve or heip you with them. Please keep in mind that projects need to be realistically something that is able to be functionally completed by a student working full time for about eight weeks. Thanks!
 				</p>
 				<p>
-					<b>Mailing list: </b>score-community@googlegroups.com ( <a href="http://groups.google.com/d/forum/score-community" target="_blank">
-						
-					Archives</a> )
+					<b>Mailing list: </b><a href="http://groups.google.com/d/forum/score-community" target="_blank">score-community@googlegroups.com</a>
 				</P>
 				<p>
 					<b>IRC Channel: </b>#scorelab
 				</p>
 				<br/>
-
-
 					<h2>Important Guidelines on Submitting Ideas</h2>
 					<br /><br>
 					<h4>There are some important guidelines to submit ideas, please read these carefully before adding your ideas:</h4><br/>
@@ -102,19 +98,24 @@
 
 		<div id="proposal-list">
 					<ol style="padding-left: 25px;">
-						<li><a href="#opendf-1">Proposal 1 : Forensics Timeline Module</a> for <a href="#opendf">OpenDF</a></li>
-						<li><a href="#opendf-2">Proposal 2 : Auto-Installer and Easy Deployments</a> for <a href="#opendf">OpenDF</a></a></li>
-						<li><a href="#opendf-3">Proposal 3 : Browser Data Module</a> for <a href="#opendf">OpenDF</a></a></li>
-						<li><a href="#opendf-4">Proposal 4 : Image,video & audio metadata Module</a> for <a href="#opendf">OpenDF</a></a></li>
-						<li><a href="#opendf-5">Proposal 5 : Test Automation</a> for <a href="#opendf">OpenDF</a></li>
-						<li><a href="#tracker-1">Proposal 6 : User Interfaces</a> for <a href="#tracker">Tracker</a></li>
-						<li><a href="#tracker-2">Proposal 7 : Auto Installer</a> for <a href="#tracker">Tracker</a></li>
-						<li><a href="#packtrack-1">Proposal 8 : Create adding stations and carriers module</a> for <a href="#packtrack">Pack-Track</a></li>
-						<li><a href="#packtrack-2">Proposal 9 : Connect Pack-Track with Tracker</a> for <a href="#packtrack">Pack-Track</a></li>
-						<li><a href="#packtrack-3">Proposal 10 : REST API to get data</a> for <a href="#packtrack">Pack-Track</a></li>
+						<li><a href="#opendf-1">Proposal 1 : Forensics Timeline Module for OpenDF</a></li>
+						<li><a href="#opendf-2">Proposal 2 : Auto-Installer and Easy Deployments for OpenDF</a></li>
+						<li><a href="#opendf-3">Proposal 3 : Browser Data Module for OpenDF</a></li>
+						<li><a href="#opendf-4">Proposal 4 : Image,video & audio metadata Module for OpenDF</a></li>
+						<li><a href="#opendf-5">Proposal 5 : Test Automation for OpenDF</a></li>
+						<li><a href="#tracker-1">Proposal 6 : User Interfaces for Tracker</a></li>
+						<li><a href="#tracker-2">Proposal 7 : Auto Installer for Tracker</a></li>
+						<li><a href="#packtrack-1">Proposal 8 : Create adding stations and carriers module for Pack-Track</a></li>
+						<li><a href="#packtrack-2">Proposal 9 : Connect Pack-Track with Tracker for Pack-Track</a></li>
+						<li><a href="#packtrack-3">Proposal 10 : REST API to get data for Pack-Track</a></li>
 						<li><a href="#tikiridb">Proposal 11 : Redesign Tikiri-DB</a></li>
+						<!--
 						<li><a href="#snsm">Proposal 12 : Social Networks for situation mining</a></li>
-						<li><a href="#IoTDatastore">Proposal 13 : IoT Datastore powered by Distributed Software Transactional memory</a></li>
+						-->
+						<li><a href="#IoTDatastore">Proposal 12 : IoT Datastore powered by Distributed Software Transactional memory</a></li>
+						<li><a href="#androspy-1">Proposal 13 : Improve root exploit support for Androspy</a></li>
+						<li><a href="#androspy-2">Proposal 14 :  Advanced phonographic content search for Androspy</a></li>
+						<li><a href="#androspy-3">Proposal 15 :  Unknown binary analysis for Androspy</a></li>
 						<li><a href="https://docs.google.com/document/d/11xs5Au4FQsWI9v-P5bsbvEqjR5nFge0T8yXEaZ4RPqg/pub">Proposal Template for Students</a></li>
 					</ol>
 		</div>
@@ -398,7 +399,7 @@
 				
 				<br>
 				<br>
-
+			<!--
 			<div id="snsm">
 				<h2>Proposal 12 : Social Networks for situation mining</h2>
 				<p>
@@ -420,8 +421,10 @@
 			<br />
 			<br/>
 		<br/>
+		-->
+		</br/>
 		<div id="IoTDatastore">
-			<h2>Proposal 13 : IoT Datastore powered by Distributed Software Transactional memory</h2>
+			<h2>Proposal 12 : IoT Datastore powered by Distributed Software Transactional memory</h2>
 				
 			<p>One of the challenges associated with the internet of things is figuring out where to put all that data. If you have dozens of connected devices talking to the cloud you’ve got to think about where that data lives, how to normalize it and how to grant others access to it so it becomes useful. The goal of this project is to optimize read/write operations in such data store which can be used as a platform to build concurrent systems. Software Transactional Memories (STMs) are emerging as a powerful paradigm to develop concurrent applications. By relishing the programmer from the burden of managing locks or other low-level concurrency control mechanisms, the reliability of the code is increased and the software development time significantly shortened.		
 			</p>
@@ -446,7 +449,86 @@
 			</p>
 		</div>
 		<br/>
-		<br>	
+		<br>
+		<div id="androspy-1">
+					<h2>Proposal 13 : Improve root exploit support for Androspy</h2>
+					<p>
+						The process of gain superuser access to Android file system root folder is known as device rooting.  There is no general way to gain root access in all Android smartphones as it is highly coupled with vendor, Android version, build number, kernel and model. Improve the device rooting module of Androspy by implementing more root exploits so that the tool will support wider range of Android smartphones. It is expected to automate the rooting process.
+						<br>
+						<br>
+						<b>Required Knowledge: </b>
+						<ul>
+							<li>Android platform</li> 
+							<li>Suitable Android kernel exploits / vulnerabilities</li> 
+							<li>Scripting language (i.e. shell script)</li> 
+							<li>Java</li>
+						</ul>
+					</p>
+					<p>
+						<b>Androspy: </b><a href="https://github.com/scorelab/Androspy" target="_blank">https://github.com/scorelab/Androspy</a>
+					</p>
+					<p><b>Possible Mentors</b>
+				<ul>
+					<li>Indeewari Akarawita</li>
+					<li>Amila Bhagya Perera</li> 
+				</ul></p>
+				</div>
+				<br>
+				
+				<br>
+				<div id="androspy-2">
+					<h2>Proposal 14 :  Advanced phonographic content search for Androspy</h2>
+					<p>
+						This module will identify visual phonographic content (i.e. images. Video, documents) and should provide a phonographic URL identification based on URL lookup. Using a URL lookup technique is required as there may be URLs that does not contain any explicit words but real content falls in phonographic category.
+						<br>
+						<br>
+						<b>Required Knowledge: </b>
+						<ul>
+							<li>Android platform</li> 
+							<li>Image processing</li> 
+							<li>Java</li>
+						</ul>
+					</p>
+					<p>
+						<b>Androspy: </b><a href="https://github.com/scorelab/Androspy" target="_blank">https://github.com/scorelab/Androspy</a>
+					</p>
+					<p><b>Possible Mentors</b>
+				<ul>
+					<li>Indeewari Akarawita</li>
+					<li>Amila Bhagya Perera</li> 
+				</ul></p>
+				</div>
+				<br>
+				
+				<br>
+				<div id="androspy-3">
+					<h2>Proposal 15 :  Unknown binary analysis for Androspy</h2>
+					<p>
+						This module includes several tasks. Initially the module should identify known good binary files, known bad binary files and unknown binary files. This could be done by maintaining a hash value repository of binary files in Android platform. At the moment there is no such up-to-date repository available internet (NSRL does not contain comprehensive list of hashes of Android applications).
+After categorization, the module should enable analysis of binary files. Analysis can start by identifying permissions requested by the application.  Further binary file decomposable and debug functionality need be developed in this module in order to identify malicious artifacts of the unknown binaries.
+						<br>
+						<br>
+						<b>Required Knowledge: </b>
+						<ul>
+						<ul>
+							<li>Hashing techniques</li> 
+							<li>Android application structure and security model</li> 
+							<li>Java</li>
+							<li>.apk file decompile</li>
+						</ul>
+					</p>
+					<p>
+						<b>Androspy: </b><a href="https://github.com/scorelab/Androspy" target="_blank">https://github.com/scorelab/Androspy</a>
+					</p>
+					<p><b>Possible Mentors</b>
+				<ul>
+					<li>Indeewari Akarawita</li>
+					<li>Amila Bhagya Perera</li> 
+				</ul></p>
+				</div>
+				<br>
+				
+				<br>
 
 				
 				<div id="footer">
