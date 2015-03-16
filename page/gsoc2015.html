@@ -116,6 +116,7 @@
 						<li><a href="#androspy-1">Proposal 13 : Improve root exploit support for Androspy</a></li>
 						<li><a href="#androspy-2">Proposal 14 :  Advanced phonographic content search for Androspy</a></li>
 						<li><a href="#androspy-3">Proposal 15 :  Unknown binary analysis for Androspy</a></li>
+						<li><a href="#taxi">Proposal 16: Top-k publish/subscribe model for intelligent Taxi allocation</a></li>
 						<li><a href="https://docs.google.com/document/d/11xs5Au4FQsWI9v-P5bsbvEqjR5nFge0T8yXEaZ4RPqg/pub">Proposal Template for Students</a></li>
 					</ol>
 		</div>
@@ -539,6 +540,36 @@ After categorization, the module should enable analysis of binary files. Analysi
 					<li>Amila Bhagya Perera</li> 
 				</ul></p>
 				</div>
+				<br/>
+				<div id="taxi">
+					<h2>Proposal 16: Top-k publish/subscribe model for intelligent Taxi allocation</h2>
+
+<p>Publish/subscribe systems are widely recognized in processing continuous queries over data
+streams and are augmented by algorithms coming from the field of data stream processing. Existing functions which are capable of matching publications & subscriptions in state-of-the-art publish/subscribe systems are depended on a stateless function which provides only a Boolean decision on whether a given publication is to be notified to relevant subscriber or not. But in such systems, the large quantity of received publications may be considered as a sort of spam, while a system that delivers too few publications might be recognized as non-working.
+We have implemented an advanced publish/subscribe matching model to control the unpredictable number of delivered publications over a continuous data-stream, where at a given time t our model limits the number of delivered publications by parameter k, while ranks them within a size w of sliding window. A general scoring mechanism is exploited where publications get scored against personalized user subscription spaces based on the relevancy. We adopt an inverted-list data structure to index the subscription space to enhance the efficiency of matching process. Also we focus on the problem of selecting the k-most diverse items from a relevant result set, in a dynamic setting where Top-k results change over time. An incremental indexing mechanism is proposed for handling streaming publications that is based on Locality Sensitive Hashing (LSH) to diversify Top-k results continuously. Our prototype model is implemented in a cloud based message broker system and we have designed it to scale on top of Amazon Web Services (AWS): a scalable cloud-service provider.</p>
+<br>
+<p><b>Deliverables:</p></b>
+<ul>
+	<li>Intelligent Taxi allocation</li>
+	<li>Solve ACM DEBS 2015 Grand Challenge problem based on Top-k publish/subscribe concepts</li>
+</ul>
+<br/>
+<p><b>Skills Needed: </b></p>
+<ul>
+	<li>Basic concepts behind publish/subscribe</li>
+	<li>Complexity theory</li>
+	<li>Data-structures & algorithms</li>
+</ul>
+<br>
+<p><b>References:</b><br/>
+<a href="http://github.com/SamTube405/EC2PubSubK">http://github.com/SamTube405/EC2PubSubK</a><br>
+<a href="http://www.debs2015.org/call-grand-challenge.html">http://www.debs2015.org/call-grand-challenge.html</a></p>
+<br>
+<p><b>Possible Mentors:</b></p>
+<ul><li>Sameera (sameera@scorelab.org)</li></ul>
+				</div>
+
+
 				<br>
 				
 				<br>
