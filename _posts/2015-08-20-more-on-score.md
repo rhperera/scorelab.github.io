@@ -1,0 +1,16 @@
+---
+title: More on SCoRe
+featured: images/pic01.jpg
+layout: post
+excerpt: At present, the SCoRe group is at a stage of its evolution in which it has been able to secure high donor confidence as evidenced by no less than 5 simultaneous foreign funded projects underway since 2005.
+---
+
+<p>At present, the SCoRe group is at a stage of its evolution in which it has been able to secure high donor confidence as evidenced by
+no less than 5 simultaneous foreign funded projects underway since 2005.</p>
+<p>SCoRe group has been a pioneer in cooperating with Internet Society (ISOC), Swedish Agency for International Development Cooperation (Sida)/The Department for Research Cooperation (SAREC),
+The Swedish Program for Information and Communication Technology in Developing Regions (Spider) and Information Society Innovation Fund
+(ISIF) in the area of computer science by establishing several interesting ICT research projects. These projects are considered to be
+the benchmarks of such projects in the World.
+
+Vehicular sensor networks which is called BusNet, Multiseat computer which is called PokuruPC and Forensic
+Investigation Toolkit were our big success which received wide international acceptance.</p>
