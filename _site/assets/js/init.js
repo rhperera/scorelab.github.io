@@ -3,9 +3,10 @@
     templated.co @templatedco
     Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+var sitename = 'http://rhperera.github.io/scorelab.github.io';
 
 skel.init({
-	prefix: '/assets/css/style',
+	prefix: sitename + '/assets/css/style',
 	resetCSS: true,
 	boxModel: 'border',
 	grid: {
