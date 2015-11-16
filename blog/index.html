@@ -11,10 +11,10 @@ layout: default
 				{% for post in site.posts offset: 0 limit: 4 %}
 				<div class="post-preview" style="margin-bottom:50px; text-align: justify;">
 				<header>
-					<h2><a href="{{ site.prefix }}{{ post.url }}"> {{ post.title }}</a></h2>
+					<h2><a href="{{ site.url }}/{{ site.prefix }}{{ post.url }}"> {{ post.title }}</a></h2>
 				</header><p class="posted">Posted on {{ post.date | date: '%B %d, %Y' }}</p>
 				{{ post.excerpt }}
-				<a style="font-weight:bold" href="{{ site.prefix }}{{ post.url }}" >Read More</a>
+				<a style="font-weight:bold" href="{{ site.url }}/{{ site.prefix }}{{ post.url }}" >Read More</a>
 			</div>
 				{% endfor %}
 			</section>
