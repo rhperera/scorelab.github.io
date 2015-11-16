@@ -3,7 +3,7 @@
     templated.co @templatedco
     Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
-var sitename = 'http://rhperera.github.io/scorelab.github.io';
+var sitename = 'http://www.scorelab.org';
 
 skel.init({
 	prefix: sitename + '/assets/css/style',
