@@ -8,14 +8,14 @@
 	<nav id="nav">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
-			<img src="/assets/images/Banner.png" align="left" id="scoreLogo">
-			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Home</a></li>
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="/blog">Blog</a></li>
-			<li {% if current[1] == 'projects.html' %}class='current'{% endif %}><a href="/projects.html">Projects</a></li>
-			<li {% if current[1] == 'publications.html' %}class='current'{% endif %}><a href="/publications.html">Publications</a></li>
-			<li {% if current[1] == 'about.html' %}class='current'{% endif %}><a href="/about.html">About Us</a></li>
-			<li {% if current[1] == 'gsoc2015.html' %}class='current'{% endif %}><a href="/gsoc2015.html">GSoC</a></li>
-			<img id="github" src="http://static.jeremybuff.com/img/technology-icon-github.png" align="right">
+			<img src="{{ site.url }}/assets/images/Banner.png" align="left" id="scoreLogo">
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.url }}/index.html">Home</a></li>
+			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.url }}/blog">Blog</a></li>
+			<li {% if current[1] == 'projects.html' %}class='current'{% endif %}><a href="{{ site.url }}/projects.html">Projects</a></li>
+			<li {% if current[1] == 'publications.html' %}class='current'{% endif %}><a href="{{ site.url }}/publications.html">Publications</a></li>
+			<li {% if current[1] == 'about.html' %}class='current'{% endif %}><a href="{{ site.url }}/about.html">About Us</a></li>
+			<li {% if current[1] == 'gsoc2015.html' %}class='current'{% endif %}><a href="{{ site.url }}/gsoc2015.html">GSoC</a></li>
+			<a href="https://github.com/scorelab"><img id="github" src="http://static.jeremybuff.com/img/technology-icon-github.png" align="right"></a>
 		</ul>
 	</nav>
 </div>
