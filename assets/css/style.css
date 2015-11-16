@@ -76,7 +76,7 @@ margin-left:0;
 		background-color: #fff !important;
 	}
 
-	#nav>ul>img#github
+	#nav>ul>a>img#github
 	{
 
 	  	height: 43px;
